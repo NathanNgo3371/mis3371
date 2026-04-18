@@ -1,0 +1,193 @@
+/*
+    Author: Nathan Ngo
+    Date Created: 2026-04-17
+    Date Last Modified: 2026-04-17
+    Version: 3.0
+    Description: Homework 3 CSS file
+*/
+
+header {
+    width: 100%;
+    background-color: rgb(135, 206, 250); /* Light blue background */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #105694; /* Dark blue background */
+    margin: 0;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100vh; /* page is height of the viewport */
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(135, 206, 250);
+    height: 3.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+input {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.pass-message {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    position: relative;
+    left: 100px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: red;
+}
+
+#review {
+    margin-top: 5px;
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 500px;
+    background-color: rgb(74, 142, 197);
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: #010622cb;
+}
+
+td.outputdata {
+    width: 500px;
+    background-color: rgb(70, 175, 204);
+    padding: 10px;
+    border-spacing: 2px;
+}
+
+/*alert box style*/
+#alert-box {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+}
+
+#alert-content {
+    background-color: rgb(230, 237, 239);
+    border-radius: 10px;
+    width: 300px;
+    height: 140px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 30px;
+    text-align: center;
+}
+
+#alert-content h4 {
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: normal;
+}
+
+#close-alert {
+    background-color: rgb(230, 237, 239);
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(135, 206, 250);
+    border-color: rgb(135, 206, 250);
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
